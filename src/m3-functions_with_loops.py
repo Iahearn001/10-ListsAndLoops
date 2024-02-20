@@ -17,6 +17,16 @@
 #
 #   Once you have done this, then change the above _TODO_ to DONE.
 ###############################################################################
+ingredients = ["sugar", "flour", "lemon", "yogurt"]
+
+def ingredient_search(ingredient, lst):
+    for x in lst:
+        if x == ingredient:
+            return True
+    return False
+
+print(ingredient_search("sugar", ingredients))
+print(ingredient_search("chocolate", ingredients))
 
 ###############################################################################
 # TODO: 1. (3 pts)
@@ -52,3 +62,8 @@
 #   
 #   Once you have done this, then change the above _TODO_ to DONE.
 ###############################################################################
+def triangle(size):
+    for x in range(1, size + 1):
+        print('*' * x)
+
+triangle(5)
