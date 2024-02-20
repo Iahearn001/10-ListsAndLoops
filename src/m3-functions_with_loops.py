@@ -1,5 +1,5 @@
 ###############################################################################
-# TODO: 1. (4 pts)
+# DONE: 1. (4 pts)
 #   
 #   Now, let's try to combine a few of the things we learned in previous exercises together. We are going to improve upon some of the loops that we created in m2. Feel free to copy and paste them as you see fit.
 #
@@ -29,7 +29,7 @@ print(ingredient_search("sugar", ingredients))
 print(ingredient_search("chocolate", ingredients))
 
 ###############################################################################
-# TODO: 1. (3 pts)
+# DONE: 1. (3 pts)
 #   
 #   For this _TODO_, write a function called triangle() that takes one parameter:
 #       - size  <- int

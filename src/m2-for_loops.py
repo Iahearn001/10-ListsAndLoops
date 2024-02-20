@@ -35,7 +35,7 @@ for x in ingredients:
 
 
 ###############################################################################
-# TODO: 3. (3 pts)
+# DONE: 3. (3 pts)
 #   
 #   For this _TODO_, write a for loop that uses the range() function to print out lines of stars (*) in increasing amounts ending with a line of 5 stars. So it should print the empty string on the first line, then * on the next line, then ** on the next line, and so on. Your final output should look like this:
 #
